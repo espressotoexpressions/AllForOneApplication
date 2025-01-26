@@ -80,6 +80,7 @@ h3{
     font-size: 45px !important;
     color: var(--darkgray) !important;
     padding: 0 1.5rem !important;
+  
   }
 
   button{
@@ -439,12 +440,16 @@ object-fit: cover; /* Ensures the image maintains aspect ratio */
     }
  
     #suggestionOutput{
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important; 
       height: 300px;
       width:auto;
       text-align: center;
       border: 0px;
       font-size: 50px !important;
       color:var(--lightblue) !important;
+  
 
     }
 
