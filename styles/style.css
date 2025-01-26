@@ -11,6 +11,7 @@
     --orange: #F89B38;
     --lightblue: #3BADE3;
     --darkgreen: #338168;
+    --yellow: #F3B93F;
 
 
 }
@@ -155,7 +156,8 @@ object-fit: cover; /* Ensures the image maintains aspect ratio */
   height: 350px;
   text-align: center;
   border: 0px;
-  font-size: 75px !important;
+  font-size: 65px !important;
+  color:var(--green) !important;
 
 }
 
@@ -418,4 +420,66 @@ object-fit: cover; /* Ensures the image maintains aspect ratio */
       font-size: 50px !important;
       color:var(--darkgreen) !important;
 
+    }
+
+    /*Restaurant picker styling*/
+    #restaurantPickerContainer{
+      padding:0 3rem;
+      color:var(--lightblue);
+      font-size: 30px;
+        text-transform: uppercase;
+        font-weight: bold;
+      
+    }
+    #lightBlueMonster{
+      width: auto; 
+      height: 800px;
+      object-fit: contain;
+    }
+ 
+    #suggestionOutput{
+      height: 300px;
+      width:auto;
+      text-align: center;
+      border: 0px;
+      font-size: 50px !important;
+      color:var(--lightblue) !important;
+
+    }
+
+    #restaurantPickerContainer button{
+      background-color: var(--lightblue);
+      color: white;
+      font-size:50px;
+      font-family: "bobbyjones-solid";
+      border-radius: 20px !important;
+      border:0px;
+    }
+
+
+    /* index page*/
+    #splashMessage{
+      background-color: white;
+      border-radius: 20px !important;
+      font-size: 45px !important;
+      padding: 1.5rem !important;
+      
+    }
+
+    #homeMonsterFriendsImg{
+      width: auto; 
+    height: 600px;
+      object-fit: cover;
+
+      
+    }
+
+    /*index styling*/
+    #letsPlayBtn{
+      background-color: var(--yellow);
+      color: white;
+      font-size:50px;
+      font-family: "bobbyjones-solid";
+      border-radius: 20px !important;
+      border:0px;
     }
