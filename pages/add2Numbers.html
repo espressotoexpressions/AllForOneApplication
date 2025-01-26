@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All For One Application</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../styles/style.css" />
+  </head>
+  <body>
+    <div class="container" id="add2NumbersContainer">
+      <h2 class="bobbyJonesSolidFont text-center my-5">ADD 2 NUMBERS</h2>
+      <div class="row">
+        <div class="col-5 text-center">
+          <div class="row-2 add2NumbersInputHeader mb-3">1ST NUMBER</div>
+          <div class="row-10">
+            <input
+              type="text"
+              class="w-100"
+              id="firstNumInput"
+              placeholder="0"
+            />
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="row-2"></div>
+          <div
+            class="row-10 d-flex bobbyJonesSolidFont justify-content-center align-items-center"
+          >
+            <h1 style="font-size: 300px; color: black">+</h1>
+          </div>
+        </div>
+        <div class="col-5">
+          <div class="row-2 add2NumbersInputHeader text-center mb-3">
+            2ND NUMBER
+          </div>
+          <div class="row-10">
+            <input
+              type="text"
+              class="w-100"
+              id="secondNumInput"
+              placeholder="0"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div  class=" text-center mb-3 " >
+            <button id="add2NumbersSubmitBtn" class="w-100">
+                SUBMIT
+
+            </button>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row" >
+        <div class="col-5 d-flex  align-items-center justify-content-start overflow-hidden">
+          <img
+          style="margin-bottom: -200px; margin-left: -150px;"
+            src="../assets/bluelightMonster.png"
+            id="blueMonsterImg"
+            alt="Blue Monster"
+          />
+        </div>
+        <div class="col-1 bobbyJonesSolidFont">
+          <p style="font-size: 400px; color: black" class="text-center">=</p>
+        </div>
+        <div class="col-4 ">
+            <div class="row-10 justify-content-start">
+            <input type="text" class="w-75" id="totalInput" placeholder="0" />
+          <div class="row-2 add2NumbersInputHeader mb-3 w-75 text-center">TOTAL</div>
+          
+          </div>
+        </div>
+        <div class="col-2 d-flex align-items-end">
+          <a href="./menu.html">
+            <img src="../assets/HomeRightBtn.png" alt="Home Btn" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="../scripts/add2NumbersApp.js"></script>
+  </body>
+</html>

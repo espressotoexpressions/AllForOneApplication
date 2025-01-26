@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All For One Application</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../styles/style.css" />
+  </head>
+  <body>
+    <div class="container" id="magic8BallContainer">
+      <div class="row vh-100">
+        <!-- left images-->
+
+        <div class="col-4 d-flex flex-column">
+          <div >
+            <img
+              style="margin-left: -200px; margin-top: 150px;"
+              src="../assets/darkgreenMonster.png"
+              id="darkGreenMonsterImg"
+              alt="Dark Green  Monster"
+            />
+          </div>
+          <div class="row-6 mt-auto mb-5 pb-5">
+            <a href="./menu.html">
+              <img src="../assets/HomeLeftBtn.png" alt="Home Button" />
+            </a>
+          </div>
+        </div>
+
+        <!--right input/output section-->
+        <div class="col-8 p-5">
+          <h2 class="bobbyJonesOutlineFont text-center">MAGIC 8 BALL</h2>
+          <div class="row">
+            <h3 style="font-size: 60px;">ENTER YOUR QUESTION FOR ME</h3>
+            <textarea
+              class="w-100 form-control"
+              id="magic8BallInput"
+              rows="3"
+            ></textarea>
+            <div class="row justify-content-center my-5">
+              <button id="magic8BallSubmitBtn" class="w-50">SUBMIT</button>
+            </div>
+          </div>
+          <div class="row">
+            <h3>I THINK...</h3>
+            <textarea
+              class="w-100 form-control"
+              id="magic8BallOutput"
+              rows="3"
+            ></textarea>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="../scripts/magic8BallApp.js"></script>
+  </body>
+</html>
