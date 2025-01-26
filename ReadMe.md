@@ -22,4 +22,4 @@ Maintain a consistent design theme across all pages to ensure a seamless user ex
 
 
 //peer reviewed by: Gianpaolo Reinares
-> Comments: Site Looks Great, and I love the theming and character of the entire thing; All of the activities function as intended; In 'Add Two Numbers' you might want to add some validation to make sure that the user inputs numbers (similar to your 'Odd or Even'); Just missing responsiveness, but besides that, everything else is good.
+> Comments: Site Looks Great, and I love the theming and character of the entire thing; All of the activities function as intended; In 'Add Two Numbers' you might want to add some validation to make sure that the user inputs numbers (similar to your 'Odd or Even'); Currently lacks responsiveness, but besides that, everything else is good.
