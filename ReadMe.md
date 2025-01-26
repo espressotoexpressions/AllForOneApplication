@@ -15,13 +15,7 @@ Input and Display:
 Implement user input fields on each page to gather information from the user relevant to the respective API endpoint.
 Display the information retrieved from the backend in a clear and organized manner on the same page.
 API Endpoint Pages:
-Each page  corresponds to one of the mini API endpoints, showcasing the unique functionality of that endpoint.
-
-Example: Restaurant Picker Page:
-Description: Create a page where the user can input a restaurant category.
-Functionality: Collect user input for the restaurant category.
-Use the backend API to fetch a random restaurant suggestion based on the provided category.
-Display the restaurant suggestion prominently on the page.
+Each page  corresponds to one of the  API endpoints I created, showcasing the unique functionality of that endpoint.
 
 Consistency:
 Maintain a consistent design theme across all pages to ensure a seamless user experience.
